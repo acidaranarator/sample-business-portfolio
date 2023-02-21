@@ -1,6 +1,6 @@
 # simple-business-portfolio
 
-Assignment solution for "Introduction to Coding" course conducted by Javaabu Academy. Website is based on an imaginary events planning business.
+Assignment solution that I submitted for "Introduction to Coding" course conducted by Javaabu Academy. Website is based on an imaginary events planning business.
 
 ###### Assignment details (summarized)
 Question: developing a website for a local entity or an imaginary entity.
