@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--page title-->
+        <title>Portfolio</title>
+        
+        <!--Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+        
+        <!--fonts from FontAwesome for the icons used-->
+        <script src="https://kit.fontawesome.com/801b307977.js" crossorigin="anonymous"></script>
+        
+        <!--bxSlider's stylesheet-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+       <!--stylesheet for this website-->
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+
+    </head>
+
+
+    <body>
+    
+        <!--header section-->
+        <header>
+            <!-- business logo-->
+            <a href="index.html#home-hero" id="logo">
+                <img src="images/sakura.png" alt="flower logo of the business" width="70px">
+            </a>
+
+            <!--navigation bar-->
+            <nav>
+               <ul>
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="about.html">About Us</a></li>
+                   <li><a href="#" id="portfolio-msg">Portfolio</a></li>
+               </ul>
+           </nav> 
+
+           <!--menu icon which will be visible in mobie form-->
+           <i id="mobile-menu-icon" class="fa-solid fa-bars fa-3x"></i>
+
+        </header>
+
+
+        <!--hero section-->
+        <section class="hero">
+            <h3 id="title">Portfolio</h3>
+        </section>
+
+
+        <!--page content-->
+        <section id="content">
+
+            <!--each type of event is inside a bootstrap card, with photos viewable via slider-->
+
+            <div class="top-row-cards">
+                 <!--bootstrap card: birthday events-->
+                <div class="card">
+                <!--slider inside bootstrap cards-->
+                <div class="slider">
+                    <div><img src="images/portfolio/birthday1.jpg" alt="image of birthday decorations" width="100%" height="200px"/></div>
+                    <div><img src="images/portfolio/birthday2.jpg" alt="image of a decorated table with balloons" width="100%" height="200px"/></div>
+                    <div><img src="images/portfolio/birthday3.jpg" alt="image of gift bags" width="100%" height="200px"/></div>
+                    <div><img src="images/portfolio/birthday4.jpg" alt="image of desserts" width="100%" height="200px"/></div>
+                    <div><img src="images/portfolio/birthday5.jpg" alt="image of food" width="100%" height="200px"/></div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Birthday Parties</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Incidunt, cupiditate et inventore qui, asperiores possimus reiciendis mollitia quis tenetur iure magni.
+                    Dolores velit cupiditate ipsa quis pariatur veniam quo officia!</p>
+                </div>
+                </div>
+            
+                <!--bootstrap card: Weddings-->
+                <div class="card">
+                <!--slider inside bootstrap cards-->
+                    <div class="slider">
+                        <div><img src="images/portfolio/wedding1.jpg" alt="image of table decorated and arranged with flowers, lights and plates" width="100%" height="200px"/></div>
+                        <div><img src="images/portfolio/wedding2.jpg" alt="image of floral arrangement on a table" width="100%" height="200px"/></div>
+                        <div><img src="images/portfolio/wedding3.jpg" alt="image of a wedding cake" width="100%" height="200px"/></div>
+                        <div><img src="images/portfolio/wedding4.jpg" alt="image of a food table" width="100%" height="200px"/></div>
+                        <div><img src="images/portfolio/wedding5.jpg" alt="image of a dessert table full of cakes" width="100%" height="200px"/></div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Weddings</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Incidunt, cupiditate et inventore qui, asperiores possimus reiciendis mollitia quis tenetur iure magni.
+                            Dolores velit cupiditate ipsa quis pariatur veniam quo officia!</p>
+                    </div>
+                </div>
+
+                <!--bootstrap card: live events-->
+                <div class="card">
+                <!--slider inside bootstrap cards-->
+                    <div class="slider">
+                        <div><img src="images/portfolio/live1.jpg" alt="image of an audio technician at an event" width="100%" height="200px"/></div>
+                        <div><img src="images/portfolio/live2.jpg" alt="image of an empty stage with lights" width="100%" height="200px"/></div>
+                        <div><img src="images/portfolio/live3.jpg" alt="image of a videographer shooting" width="100%" height="200px"/></div>
+                        <div><img src="images/portfolio/live4.jpg" alt="image of a live stage event with lights at the audience" width="100%" height="200px"/></div>
+                        <div><img src="images/portfolio/live5.jpg" alt="image of confetti at a live stage event" width="100%" height="200px"/></div>
+                    </div>
+                    <div class="card-body">
+                    <h5 class="card-title">Live Events</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Incidunt, cupiditate et inventore qui, asperiores possimus reiciendis mollitia quis tenetur iure magni.
+                        Dolores velit cupiditate ipsa quis pariatur veniam quo officia!</p>
+                    </div>
+                </div>
+
+            </div>
+
+           <div class="bottom-row-cards">
+               <!--bootstrap card: corporate events-->
+                <div class="card" id="corporate">
+                <!--slider inside bootstrap cards-->
+                    <div class="slider">
+                        <div><img src="images/portfolio/corp-events1.jpg" alt="image of a man talking at a conference" width="100%" height="200px"/></div>
+                        <div><img src="images/portfolio/corp-events2.jpg" alt="image of office workers conversing after a meeting" width="100%" height="200px"/></div>
+                        <div><img src="images/portfolio/corp-events3.jpg" alt="image of office workers" width="100%" height="200px"/></div>
+                        <div><img src="images/portfolio/corp-events4.jpg" alt="image of an empty hall with chairs arranged" width="100%" height="200px"/></div>
+                        <div><img src="images/portfolio/corp-events5.jpg" alt="image of an empty podium with a lot of empty chairs surrounded" width="100%" height="200px"/></div>
+                    
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Corporate Events</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Incidunt, cupiditate et inventore qui, asperiores possimus reiciendis mollitia quis tenetur iure magni.
+                            Dolores velit cupiditate ipsa quis pariatur veniam quo officia!</p>
+                    </div>
+                </div>
+
+                <!--bootstrap card: holiday events-->
+                <div class="card" id="holiday">
+                <!--slider inside bootstrap cards-->
+                    <div class="slider">
+                        <div><img src="images/portfolio/holiday1.jpg" alt="image of eid decorations with a dessert table" width="100%" height="200px"/></div>
+                        <div><img src="images/portfolio/holiday2.jpg" alt="image of table decorations" width="100%" height="200px"/></div>
+                        <div><img src="images/portfolio/holiday3.jpg" alt="image of an arranged dining table with decorations on the wall" width="100%" height="200px"/></div>
+                        <div><img src="images/portfolio/holiday4.jpg" alt="image of catering food" width="100%" height="200px"/></div>
+                        <div><img src="images/portfolio/holiday5.jpg" alt="image of arranged food" width="100%" height="200px"/></div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Holiday Events</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Incidunt, cupiditate et inventore qui, asperiores possimus reiciendis mollitia quis tenetur iure magni.
+                            Dolores velit cupiditate ipsa quis pariatur veniam quo officia!</p>
+                    </div>
+                </div>
+                <!--bootstrap card: other events-->
+                <div class="card" id="holiday">
+                <!--slider inside bootstrap cards-->
+                    <div class="slider">
+                        <div><img src="images/portfolio/other1.jpg" alt="image of dessert table at a graduation party" width="100%" height="200px"/></div>
+                        <div><img src="images/portfolio/other2.jpg" alt="image of snack table at a graduation party with decorations" width="100%" height="200px"/></div>
+                        <div><img src="images/portfolio/other3.jpg" alt="image of farewell party decorations" width="100%" height="200px"/></div>
+                        <div><img src="images/portfolio/other4.jpg" alt="image of bridal party decorations" width="100%" height="200px"/></div>
+                        <div><img src="images/portfolio/other5.jpg" alt="image of a dessert table with decorations" width="100%" height="200px"/></div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Other Events</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Incidunt, cupiditate et inventore qui, asperiores possimus reiciendis mollitia quis tenetur iure magni.
+                            Dolores velit cupiditate ipsa quis pariatur veniam quo officia!</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--minified file of jquery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>      
+
+        <!--bxSlider CDN script tag-->
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <!--script tag for bxSlider operation-->
+        <script>
+            //process of initiating the plugin of the bxSlider
+            //separately done in a script tag as bxSlider is used
+            //in this page only
+            $(document).ready(function(){
+                $('.slider').bxSlider({
+                    mode: 'fade', 
+                    speed: 3000, //this means 3 seconds will be taken to change to next slide (next photo)
+                    auto: true //boolean function where when true, slider will work automatically
+                    //default of auto is false so in this case have to be clicked whenever to change the photo
+                    
+                });
+            });
+        </script>
+
+        <!--js script file of this website-->
+        <script type="text/javascript" src="script.js"></script>
+
+    </body>
+</html>

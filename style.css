@@ -1,0 +1,429 @@
+/*
+    ==================
+    Dhivehi Font Setup
+    ==================
+*/
+
+@font-face{
+    font-family: "Dhivehi";
+    src: url(fonts/MVWaheed.otf);
+    font-weight: 800;
+}
+
+@font-face{
+    font-family: "Dhivehi";
+    src: url(fonts/MV_Faseyha.otf);
+    font-weight: 400;
+}
+
+.dhivehi_text{
+    font-family: Dhivehi;
+    direction: rtl;
+}
+
+.dhivehi_text h3,h4{
+    font-size: 22px;
+}
+
+.dhivehi_text p{
+    font-size: 16px;
+    line-height: 2;
+}
+
+/*
+    =====================
+    Color dance animation
+    =====================
+*/
+
+@keyframes colorDance{
+    0%{
+        color: #334139 ;
+    }
+    50%{
+        color: #ffb703;
+    }
+    75%{
+        color: #ffdb70;
+    }
+    100%{
+        color: #fb6f92;
+    }
+}
+
+
+
+/*
+    ================
+     header styling
+    ================
+*/
+header{
+    position: absolute;
+    top: 30px; /* will move down 30 pixels from top*/
+    right: 0px;
+    left: 0px;
+    width: 1200px;
+    margin: auto;
+}
+
+header nav{
+    float: right;
+}
+
+
+
+/*  
+    =======================
+    navigation bar styling
+    =======================
+*/
+nav ul{
+    list-style: none;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #ff4d6d;
+    font-size: 18px;
+    font-weight: 800;
+    text-decoration: none;
+
+}
+
+nav a:hover{
+    color: rgb(255,219,112);
+}
+
+nav li{
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+
+/*
+    =================
+    main body styling
+    =================
+*/
+
+h2, h3, h4, h5{
+    font-weight: 800;
+    color: #fb6f92;
+}
+
+h2{
+    font-size: 24px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+h4{
+    font-size: 18px;
+}
+
+h5{
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, body{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+p{
+    font-size: 14px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+
+
+/*
+    ====================
+    hero section styling
+    ====================
+*/
+
+.hero{
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background: linear-gradient(rgba(212, 175, 55, 0.25), rgba(212, 175, 55, 0.25)), url('images/floral1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+
+#home-hero-text{
+    padding-top: 200px;
+    
+}
+
+#title{
+    font-size: 28px;
+    color: white;
+    width: 300px;
+    background-color: rgba(255, 77, 109, 0.75);
+    padding: 5px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#intro{
+    font-size: 35px;
+    font-weight:600;
+    color: #334139;
+    margin: 0;
+}
+
+
+
+/*
+    ========================
+    Web Page Content styling
+    ========================
+*/
+
+#content{
+    width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#content h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#content p{
+    font-weight: 500;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+
+
+
+/*
+    ====================
+    "Home" page styling
+    ====================
+*/
+footer{
+    text-align: center;
+    height: 120px;
+    margin-top: 20px;
+    background-color: #334139;
+}
+
+footer p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+footer h4{
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    
+}
+
+footer a{
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.white{
+    color: white;
+}
+
+
+
+
+
+/*
+    ========================
+    "About Us" page styling
+    ========================
+*/
+
+
+/*thumbnail styling in about us section*/
+.thumbnail{
+    width: 350px;
+    margin: 20px;
+    display: inline-block;
+}
+.thumbnail img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 0px;
+    object-position: center;
+    /*thumbnail transition*/
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+
+/* when the cursor hovers over a thumbnail, the image's surrounding shape changes*/
+.thumbnail:hover img{
+    border-radius: 50px;
+    object-position: left;
+}
+
+.thumbnail h4{
+    text-align: center;
+}
+
+/* when the cursor hovers over a thumbnail, color dance animation comes into effect in the thumbnail's title*/
+.thumbnail:hover h4{
+    animation-name: colorDance;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+
+
+
+
+/*
+    ========================
+    "Portfolio" page styling
+    ========================
+*/
+
+.card{
+    display: inline-block;
+    width: 18rem;
+    background-color: #ff8fa3;
+    margin: 30px;
+    
+    padding: 20px;
+    
+}
+
+.card h5{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card p{
+    color: #fff;
+    text-align: justify;
+}
+
+/* when the cursor hovers over card, both the card's and font's color will change*/
+.card:hover{
+    background-color: #ffdb70;
+}
+
+.card:hover h5{
+    color: #727272;
+}
+
+.card:hover p{
+    color: #727272;
+}
+
+
+
+
+
+/*
+    ======================
+    Mobile Responsiveness
+    ======================
+*/
+
+#mobile-menu-icon{
+    color: #fb6f92;
+    float: right; /*bring the icon to the right side of the page*/
+    
+    padding-top: 10px;
+}
+
+
+@media (min-width: 768px){
+    #mobile-menu-icon{
+        display: none;
+    }
+}
+
+@media (max-width: 768px){
+    header nav{
+        background-color: #334139;
+        transition: all 1s;
+        text-align: center;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        right: 100%;
+        left: 0;
+        bottom: 0;
+        padding-top: 200px;
+    }
+
+    header nav.open{
+        right: 0;
+    }
+    
+    nav li{
+        display: block;
+    }
+
+    nav a{
+        font-size: 35px;
+    }
+
+    #mobile-menu-icon{
+        position: absolute;
+        right: 25px;
+    }
+
+    p {
+        color: #334139;
+    }
+
+    .thumbnail {
+        display: block;
+        margin: auto;
+        padding-top: 20px;
+    }
+
+    .card{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+
+@media (max-width: 1200px){
+    /*putting the comma means that both are applicable else it'll mean that content inside header 
+    so changes will not be made to header then*/
+    header, #content{
+        width: 100%;
+        box-sizing: border-box; /*border-box means border & padding should be included in width calculation*/
+        padding-right: 20px;
+        padding-left: 20px;
+        
+    }   
+}
