@@ -1,4 +1,4 @@
-# simple-business-portfolio
+# sample-business-portfolio
 
 Assignment solution that I submitted for "Introduction to Coding" course conducted by Javaabu Academy. Website is based on an imaginary events planning business.
 
